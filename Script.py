@@ -841,7 +841,7 @@ def KMeansSegmentation(FilePath, ParametersPath, EnergyLevel, ElementsLayer1, El
     
     # Otherwise, call the segmentation function for one layer
     else:
-        Segmentation1Layer(FilePath, ParametersPath, EnergyLevel, Elements[0], K1, DivisionLevel)
+        Segmentation1Layer(FilePath, ParametersPath, EnergyLevel, Elements, K1, DivisionLevel)
 
 
 # ==================================================
